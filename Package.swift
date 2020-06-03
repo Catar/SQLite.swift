@@ -16,7 +16,6 @@ let package = Package(
                     ],
                     path: "Tests/SQLiteTests")
     ],
-    swiftLanguageVersions: [4, 5]
 )
 
 #if os(Linux)
