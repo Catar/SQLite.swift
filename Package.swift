@@ -15,7 +15,7 @@ let package = Package(
                         .target(name:"SQLite"),
                     ],
                     path: "Tests/SQLiteTests")
-    ],
+    ]
 )
 
 #if os(Linux)
