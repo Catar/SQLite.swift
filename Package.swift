@@ -3,7 +3,9 @@ import PackageDescription
 
 let package = Package(
     name: "SQLite.swift",
-    products: [.library(name: "SQLite", targets: ["SQLite"])],
+    products: [
+        .library(name: "SQLite", targets: ["SQLite"]),
+        .library(name: "SQLiteObjc", targets: ["SQLiteObjc"])],
     targets: [
         .target(name: "SQLite", 
                 dependencies: [
